@@ -2,7 +2,6 @@ const express = require("express");
 const UserController = require("./controllers/UserController");
 const LoginController = require("./controllers/LoginController");
 const NotifyController = require("./controllers/NotifyController");
-
 const routes = express.Router();
 
 routes.get("/", (req, res) => res.json({ api: true }));
